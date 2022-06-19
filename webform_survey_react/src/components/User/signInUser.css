@@ -1,0 +1,109 @@
+.heading-sign-in-user{
+    font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 93px;
+padding: 5px;
+
+color: #000000;
+
+text-shadow: 0px 4px 11px rgba(0, 0, 0, 0.45);
+}
+
+.user-form label{
+    font-family: 'Magra';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 55px;
+margin-right: 4px;
+
+color: #000000;
+}
+
+.user-form input{
+    /* padding: 2px; */
+    padding: 2px;
+    font-size: 20px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: dashed;
+    border-radius: 10px;
+    box-shadow: 5px 0px 12px rgba(66,66,66,.17);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.0);
+    /* background: 'unsplash:NqXqLPhdbvU'(.jpg); */
+}
+
+.user-form input:focus{
+    outline: none;
+}
+
+.user-form input[type="submit"]{
+    background: #E3ECF5;
+    background-image: -webkit-linear-gradient(top, #E3ECF5, #5E5E5E);
+    background-image: -moz-linear-gradient(top, #E3ECF5, #5E5E5E);
+    background-image: -ms-linear-gradient(top, #E3ECF5, #5E5E5E);
+    background-image: -o-linear-gradient(top, #E3ECF5, #5E5E5E);
+    background-image: -webkit-gradient(to bottom, #E3ECF5, #5E5E5E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #1C2E4C;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    -webkit-box-shadow: 9px 5px 23px 0 #636973;
+    -moz-box-shadow: 9px 5px 23px 0 #636973;
+    box-shadow: 9px 5px 23px 0 #636973;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.user-form input[type="submit"]:hover{
+    border: solid #337FED 0;
+   background: #3178E9;
+   background-image: -webkit-linear-gradient(top, #3178E9, #3D94F6);
+   background-image: -moz-linear-gradient(top, #3178E9, #3D94F6);
+   background-image: -ms-linear-gradient(top, #3178E9, #3D94F6);
+   background-image: -o-linear-gradient(top, #3178E9, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #3178E9, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+.create_acc{
+    display: flex;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.dont_acc{
+    margin-right: 30px;
+}
+
+.signup{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #2b066f;
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}

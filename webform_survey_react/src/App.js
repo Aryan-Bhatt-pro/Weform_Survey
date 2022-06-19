@@ -5,17 +5,16 @@ import {
 	Link
 } from 'react-router-dom';
 
-import SignInUser from './components/signInAdmin';
-import SignInAdmin from './components/signInUser';
+import SignInAdmin from './components/Admin/signInAdmin';
+import SignInUser from './components/User/signInUser';
 // import Home from './components/Home';
 import {Button} from 'react-bootstrap'; 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Router><div className="App">
+    <h2> Health Survey Preview</h2>
     <ul className="App-header">
       <li>
         <Link to="/signInUser">User</Link>
@@ -25,7 +24,7 @@ function App() {
       </li>
     </ul>
     {/* <button className="btn btn-primary btn-lg"></button> */}
-    <Button>This is a button</Button>
+    {/* <Button className="btn btn-primary btn-lg">This is a button</Button> */}
    <Routes>
          {/* <Route exact path='/' element={< Home />}></Route> */}
          <Route exact path='/signInUser' element={< SignInUser />}></Route>
