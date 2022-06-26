@@ -5,5 +5,10 @@
 body {
   margin: 2%;
   background: rgb(50,205,207);
-background: linear-gradient(45deg, rgba(50,205,207,1) 0%, rgba(34,35,244,1) 100%);
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* height: 100%; */
+  /* width: 100%;  */
 }

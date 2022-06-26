@@ -1,11 +1,20 @@
 import React from "react";
 import "./signInAdmin.css";
+import {useNavigate} from 'react-router-dom';
 
-function about() {
+function SignInAdmin() {
+
+  const navigate =  useNavigate();
+
+  const naviToAdminForm = () => {
+    navigate('/adminform');
+  }
+
+
   return (
     <div>
-      <div className="heading-sign-in-admin">Sig-In As admin</div>
-      <form class="admin-form" action="details.html" method="post">
+      <div className="heading-sign-in-admin">Sign-In As admin</div>
+      <form class="admin-form" action="" method="post" onSubmit={naviToAdminForm} >
         <label>Enter your username: </label>
         <input type="text" name="" />
 
@@ -36,4 +45,4 @@ function about() {
     </div>
   );
 }
-export default about;
+export default SignInAdmin;
