@@ -1,0 +1,10 @@
+.question-list{
+    /* background-color: aqua; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width:75%;
+    margin-left: 9rem;
+}

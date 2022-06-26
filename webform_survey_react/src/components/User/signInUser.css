@@ -1,3 +1,11 @@
+.user-sign-in-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
 .heading-sign-in-user{
     font-family: 'Amaranth';
 font-style: normal;
@@ -9,6 +17,10 @@ padding: 5px;
 color: #000000;
 
 text-shadow: 0px 4px 11px rgba(0, 0, 0, 0.45);
+}
+
+.sign-in-button{
+    margin: 0 auto;
 }
 
 .user-form label{
@@ -42,6 +54,9 @@ color: #000000;
 }
 
 .user-form input[type="submit"]{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     background: #E3ECF5;
     background-image: -webkit-linear-gradient(top, #E3ECF5, #5E5E5E);
     background-image: -moz-linear-gradient(top, #E3ECF5, #5E5E5E);

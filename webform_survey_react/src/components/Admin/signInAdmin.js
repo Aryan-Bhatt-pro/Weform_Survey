@@ -12,7 +12,7 @@ function SignInAdmin() {
 
 
   return (
-    <div>
+    <div className="admin-form-page"  >
       <div className="heading-sign-in-admin">Sign-In As admin</div>
       <form class="admin-form" action="" method="post" onSubmit={naviToAdminForm} >
         <label>Enter your username: </label>
@@ -35,12 +35,12 @@ function SignInAdmin() {
         <input type="password" name="" />
         <br />
         <br />
+        <div>
+        <button type="submit"  className="btn btn-primary btn-lg" name="">Sign In</button>
 
-        <input type="submit" name="" value="Sign In" />
+        </div>
         <br />
         <br />
-		
-        <hr />
       </form>
     </div>
   );
