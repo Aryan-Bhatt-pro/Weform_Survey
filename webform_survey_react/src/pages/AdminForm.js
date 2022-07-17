@@ -26,20 +26,20 @@ const AdminForm = ({store_ques_list}) => {
       question: "This is a test question 2",
       type: "text",
     },
-    {
-      question: "This is a test question 3",
-      type: "mcq",
-      options:["opt1", "opt2", "opt3"]
-    },
+    // {
+    //   question: "This is a test question 3",
+    //   type: "mcq",
+    //   options:["opt1", "opt2", "opt3"]
+    // },
     {
       question: "This is s test question 4",
       type: "text"
     },
-    {
-      question: "This is a test question 5",
-      type: "mcq",
-      options:["lode", "ke", "baal"]
-    },
+    // {
+    //   question: "This is a test question 5",
+    //   type: "mcq",
+    //   options:["op1", "op2", "opt3"]
+    // },
   ];
 
   const store_ques_list_this = () => {
@@ -73,10 +73,12 @@ const AdminForm = ({store_ques_list}) => {
       {/* question list */}
       <div className="accordion-bodyRegExps" ></div>
       {question_selected === true && (
-        <QuestionList questionList={question_list} />
-        )}
+        <div>
+          <QuestionList questionList={question_list} />
+          <button className="btn btn-primary abstract" onClick={store_ques_list_this} style={{marginLeft: 144}}>Finalize Form</button>
+        </div>)
+      }
       {question_selected === false && <ResponseList />}
-      <button className="btn btn-primary abstract" onClick={store_ques_list_this} style={{marginLeft: 144}}>Finalize Form</button>
     </div>
   );
 };

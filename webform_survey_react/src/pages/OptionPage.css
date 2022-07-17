@@ -1,0 +1,31 @@
+.app-header{
+    margin-left: 20rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: salmon;
+}
+
+.img-user {
+    width: 40%;
+    height: auto;
+}
+
+.img-admin {
+    width: 40%;
+    height: auto;
+    border-radius: 4rem;
+}
+
+.link :link, :visited{
+    text-decoration: none;
+    color: rgb(60, 60, 240)
+}
