@@ -4,12 +4,13 @@ import QuestionList from "../Questions/QuestionList";
 // import ResponseList from "../Responses/ResponseList";
 import "./AdminForm.css";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
-
+// import axios from "axios";
+import { useState } from "react";
 
 // import AdminForm from "./AdminForm";
 const UserForm = (props) => {
     
+    const [submit_clicked, setSubmit_clicked] = useState(false);
     // const express = require('express');
     // const bodyParser = require('body-parser');
     // const app = express();
@@ -22,16 +23,20 @@ const UserForm = (props) => {
 
     const submitHandler = (e) => {
       e.preventDefault();
+      setSubmit_clicked(true);
+      console.log(submit_clicked);
+
 
       // const response = {
-      
+      //   question: "aap kaise ho",
+      //   answer: "badhiya bhai"
       // }
 
-      axios.post('/api/responses', ).then((res) => {
-        console.log("submitted successfully")
-      })
+      // axios.post('http://localhost:5000/api/responses', response).then((res) => {
+      //   console.log("submitted successfully")
+      // })
 
-        // navigate('/submitpage')
+        navigate('/submitpage')
     // var question_list = null;
 };
     // question_list = props.ques_list;
